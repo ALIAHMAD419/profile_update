@@ -7,3 +7,4 @@ import "@fortawesome/fontawesome-free";
 import "jquery"
 import "jquery_ujs"
 import "./jquery_ui"
+import "./customm"
