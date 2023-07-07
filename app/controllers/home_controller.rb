@@ -21,4 +21,7 @@ class HomeController < ApplicationController
   def client_query_params
     params.require(:client_query).permit(:name, :email, :subject, :message)
   end
+
+  def index_main
+  end
 end
