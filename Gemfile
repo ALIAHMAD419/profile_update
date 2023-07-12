@@ -40,7 +40,6 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 gem "bootsnap", require: false
 
 gem "bootstrap"
-gem "sassc-rails"
 # Use jquery as the JavaScript librar
 gem 'jquery-rails'
 # Use jquery-ui for pretty UI
