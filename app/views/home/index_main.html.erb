@@ -11,6 +11,7 @@
 
       <div class="profile">
         <%= image_tag 'profile-img1.jpg', alt: '', class: 'img-fluid rounded-circle' %>
+        <%= image_tag 'profile-img.jpg', alt: '', class: 'img-fluid rounded-circle' %>
         <h1 class="text-light"><a href="index.html">Ali Ahmad</a></h1>
         <div class="social-links mt-3 text-center">
           <%= link_to "https://www.linkedin.com/in/ali-mughal-3b1488131/", { class: "linkedin", target: '_blank' }.stringify_keys do %>
@@ -27,6 +28,9 @@
           <% end %>
           <%= link_to "https://join.skype.com/invite/AqVfL1lbbqxF", { class: "google-plus", target: '_blank' }.stringify_keys do %>
             <i class="bx bxl-skype"></i>
+          <% end %>
+          <%= link_to "https://twitter.com/alimughal9987", { class: "twitter", target: '_blank' }.stringify_keys do %>
+            <i class="bx bxl-twitter"></i>
           <% end %>
           <%= link_to "https://www.facebook.com/ali.mughal.737/", { class: "facebook", target: '_blank' }.stringify_keys do %>
             <i class="bx bxl-facebook"></i>
