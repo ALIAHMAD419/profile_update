@@ -10,7 +10,7 @@
     <div class="d-flex flex-column">
 
       <div class="profile">
-        <%= image_tag 'profile-img.jpg', alt: '', class: 'img-fluid rounded-circle' %>
+        <%= image_tag 'profile-img1.jpg', alt: '', class: 'img-fluid rounded-circle' %>
         <h1 class="text-light"><a href="index.html">Ali Ahmad</a></h1>
         <div class="social-links mt-3 text-center">
           <%= link_to "https://www.linkedin.com/in/ali-mughal-3b1488131/", { class: "linkedin", target: '_blank' }.stringify_keys do %>
@@ -19,14 +19,14 @@
           <%= mail_to 'alimughal9987@gmail.com', nil, class: 'email-icon', title: 'Send Email' do %>
             <i class="bx bx-envelope"></i>
           <% end %>
+          <%= link_to "https://github.com/ALIAHMAD419", { class: "git-hub", target: '_blank' }.stringify_keys do %>
+            <i class="bx bx-git-pull-request"></i>
+          <% end %>
           <%= link_to "https://medium.com/@alimughal9987", { class: "medium", target: '_blank' }.stringify_keys do %>
             <i class="bx bxl-medium-square"></i>
           <% end %>
           <%= link_to "https://join.skype.com/invite/AqVfL1lbbqxF", { class: "google-plus", target: '_blank' }.stringify_keys do %>
             <i class="bx bxl-skype"></i>
-          <% end %>
-          <%= link_to "https://twitter.com/alimughal9987", { class: "twitter", target: '_blank' }.stringify_keys do %>
-            <i class="bx bxl-twitter"></i>
           <% end %>
           <%= link_to "https://www.facebook.com/ali.mughal.737/", { class: "facebook", target: '_blank' }.stringify_keys do %>
             <i class="bx bxl-facebook"></i>
@@ -69,7 +69,7 @@
 
         <div class="row">
           <div class="col-lg-4" data-aos="fade-right">
-            <%= image_tag 'profile-img.jpg', alt: '', class: 'img-fluid' %>
+            <%= image_tag 'profile-img1.jpg', alt: '', class: 'img-fluid' %>
 
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
