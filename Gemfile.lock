@@ -163,6 +163,8 @@ GEM
       racc (~> 1.4)
     nokogiri (1.14.0-x86_64-darwin)
       racc (~> 1.4)
+    nokogiri (1.14.0-x86_64-linux)
+      racc (~> 1.4)
     popper_js (2.11.6)
     public_suffix (5.0.1)
 >>>>>>> 053595e (added my custom.js file for testing)
@@ -233,9 +235,13 @@ GEM
     sqlite3 (1.6.0-x64-mingw-ucrt)
     sqlite3 (1.6.0-x86_64-darwin)
 <<<<<<< HEAD
+<<<<<<< HEAD
     sqlite3 (1.6.0-x86_64-linux)
 =======
 >>>>>>> 053595e (added my custom.js file for testing)
+=======
+    sqlite3 (1.6.0-x86_64-linux)
+>>>>>>> f6b80da (added platform)
     stimulus-rails (1.2.1)
 >>>>>>> 053595e (added my custom.js file for testing)
       railties (>= 6.0.0)
@@ -270,9 +276,12 @@ PLATFORMS
 >>>>>>> 053595e (added my custom.js file for testing)
   x86_64-darwin-22
   x86_64-linux
+<<<<<<< HEAD
 =======
   x86_64-darwin-22
 >>>>>>> 053595e (added my custom.js file for testing)
+=======
+>>>>>>> f6b80da (added platform)
 
 DEPENDENCIES
   bootsnap
