@@ -27,7 +27,7 @@
 /DarkJoe-master
 /node_modules
 /iPortfolio
-/public/assets
+# /public/assets
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
