@@ -13,7 +13,7 @@
         <%= image_tag 'profile-img12.jpg', alt: '', class: 'img-fluid rounded-circle' %>
         <h1 class="text-light"><a href="index.html">Ali Ahmad</a></h1>
         <div class="social-links mt-3 text-center">
-          <%= link_to "https://www.linkedin.com/in/ali-mughal-3b1488131/", { class: "linkedin", target: '_blank' }.stringify_keys do %>
+          <%= link_to "https://www.linkedin.com/in/ali-ahmad-exec/", { class: "linkedin", target: '_blank' }.stringify_keys do %>
             <i class="bx bxl-linkedin"></i>
           <% end %>
           <%= mail_to 'alimughal9987@gmail.com', nil, class: 'email-icon', title: 'Send Email' do %>
@@ -59,7 +59,7 @@
   <main id="main">
 
     <!-- ======= About Section ======= -->
-    <section id="about" class="about">
+    <section id="about" class="about" style="padding-bottom: 0px;">
       <div class="container">
 
         <div class="section-title">
@@ -68,9 +68,8 @@
         </div>
 
         <div class="row">
-          <div class="col-lg-4" data-aos="fade-right">
-            <%= image_tag 'web.jpg', alt: '', class: 'img-fluid' %>
-
+          <div class="col-lg-4 mb-0" data-aos="fade-right" style="height:25%; width:25%;" >
+            <%= image_tag 'web.jpg', alt: '', class: 'img-fluid'%>
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
             <h3>Principle of Software Engineer &amp; Web Developer.</h3>
@@ -449,43 +448,6 @@
             </div>
 
           </div>
-         <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-          <%= form_with model: @client_query, url: home_client_query_path, role: "form", class: "php-email-form" do |form| %>
-            <div class="row">
-              <div class="form-group col-md-6">
-                <%= form.label :name, "Your Name" %>
-                <%= form.text_field :name, class: "form-control", required: true %>
-              </div>
-              <div class="form-group col-md-6">
-                <%= form.label :email, "Your Email" %>
-                <%= form.email_field :email, class: "form-control", required: true %>
-              </div>
-            </div>
-            <div class="form-group">
-              <%= form.label :subject, "Subject" %>
-              <%= form.text_field :subject, class: "form-control", required: true %>
-            </div>
-            <div class="form-group">
-              <%= form.label :message, "Message" %>
-              <%= form.text_area :message, class: "form-control", rows: 10, required: true %>
-            </div>
-            <div class="my-3">
-              <% if flash[:success] %>
-                <div class="alert alert-success">
-                  <%= flash[:success] %>
-                </div>
-              <% elsif flash[:alert] %>
-                <div class="alert alert-danger">
-                  <%= flash[:alert] %>
-                </div>
-              <% end %>
-            </div>
-            <div class="text-center">
-              <%= form.submit "Send Message" %>
-            </div>
-          <% end %>
-        </div>
-
         </div>
 
       </div>
